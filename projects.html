@@ -6,48 +6,63 @@
     <title>STEPHEN COPELAND</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/additional.css" />
-	<link rel="stylesheet" href="css/normalize.css"/>
-	
-	
-		
+  <link rel="stylesheet" href="css/normalize.css"/>
+  
+  
+    
   </head>
   
   <body>
   <script src="js/vendor/jquery.js"></script> 
     <script src="js/vendor/fastclick.js"></script>
     <script src="js/foundation.min.js"></script>
-	<div class="contain-to-grid sticky">
-		<nav class="top-bar" data-topbar>
-			<ul class="title-area">
-				<li class="name">
-					<h1><a href="index.html">Stephen Copeland</a></h1>
-				</li>
-				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-			</ul>
-			<section class="top-bar-section">
-				<ul class="right">
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="education.html">Education</a></li>
-					<li><a href="resume.html">Resume</a></li>
-				</ul>
-			</section>
-		</nav>
-	</div>
-	
-	<div class="row">
+  <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="index.html">Stephen Copeland</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="Volunteering.html">Volunteering</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+  
+  <div class="row">
 
-    <div class="large-3 columns">
-      .
+    <div class="large-3 columns panel">
+      <a class="th" href="img/StephenPic.jpg">
+        <img src="img/StephenPic.jpg"/> 
+      </a> <hr>
+      <ul class="stack-for-small button-group">
+        <li><a href="https://www.linkedin.com/pub/stephen-copeland/68/ba/8ab" class="button">linkedin</a></li>
+        <li><a href="https://plus.google.com/u/0/+StephenCopeland25" class="button">google+</a></li>
+      </ul> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br>
     </div>
     <div class="large-6 columns">
-      <h2>This website</h2>
+      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+                <h2><b> ZenCNC for PCB's at FamiLab</b></h2><hr>
            <p>
-              I have recently found myself interested in both front end and back end development and thus have completed the html, css, javascript and jquery tracks on codecademy (more in progress) and learned to use the foundation framework. As has been suggested by many of my friends who do this professionally I will be turning my attention to angularjs bootstrapjs and nodejs shortly. But I feel that as a beginner this is a pretty nice place to start. 
-           </p>
-                <h2> ZenCNC for PCB's at FamiLab</h2>
-           <p>
-              I recently became accepted at a member of one of my local hacker space's <a href="http://familab.org/blog/">FamiLab</a> And during my two month probationary period I worked setting up one of their smaller CNC machines to cut out printed circuit boards using pcb-gcode for eaglecad and a VERY handy utility I found called autoleveller. If you would like more information go check out my posts on the <a href="http://forums.familab.org/index.php/topic,1294.0.html">familab forums</a> My user name is knkp.
-           </p>
+              The first project I worked on when I became a member of FamiLab. I figured out how to setup one of their smaller CNC machines to cut out printed circuit boards using pcb-gcode for eaglecad and a very handy utility I found called autoleveller. If you would like more information go check out my posts on the <a href="http://forums.familab.org/index.php/topic,1294.0.html">familab forums</a> My user name is knkp. There is also a <a href="https://www.youtube.com/watch?v=8lXta68TZ5o">video</a> of autoleveller in action - finding all height variations of a pcb.
+           </p><br><br>
+           <h2><b>Homemade IRC</b><h2><hr>
+            <p> This is a little project I worked on when I was first trying to understand posix style message que's. A friend of mine who enjoy's working on linux boxes with me from time to time found that the method available for communication (specifically the wall command) can be very disruptive when working remotely on a server. Thus I began devicing this little gadget which utlizes message que's to allow multiple user's connected to a server to communicate without interrupting the other's work. It is a work in progress and should probably be refactored from the ground up. But it was a good introduction to posix, linux c code, and emacs. You can take a look at this project <a href="https://github.com/knkp/IRC_Project"> here</a>.<br><br>
+          <h2><b> Windows Background Launcher</b></h2><hr>
+            <p> At one point I had several laptops running different versions of linux that I worked on most of the time. Unfortunately, they were stolen and I purchased a new machine from best buy with windows 8.1. I needed to keep the windows operating system for certain software utilities that were not available in linux but I also missed the ease of navigation and quick key-commands too launch programs quickly without having to navigate a slow GUI interface. Because of this limitation I decided to write a tool that ran in the background of my windows box and based on a text file that I setup, it can launch various programs with just a quick key-shortcut. There are probably alternative's to this, but I enjoy writing tools for myself if I have the time. The details of this project can be found <a ref="https://github.com/knkp/WindowsBackgroundLauncher">here</a></p><br><br>
+          <h2><b>Simple Home Automation with Raspberry Pi</b></h2><hr>
+            <p> This was my first project with the raspberry pi. I often had difficulty getting up in the mornings and sometime's an alarm clock by itself just wouldn't do it. So I used a raspberry pi and connected it to an arduino that had a relay shield mounted on top of it which then ran via cut extension cable into the back of my light switch and to a fan and tv plugs that would turn on and off depending on the time of day. I made a quick <a href="https://www.youtube.com/watch?v=c4ujrA844UI"> youtube video</a> of the project before it was disassembled for other hacking experiments </p><br><br>
+
+          <h2><b>3D Printed Joints</b></h2><hr>
+            <p> When I first learned how to use the ultimaker. I wanted to begin working on small machines and other device's that would satisfy my mechanical curiosities. I began using a powerful CAD software called FreeCAD and found a few datasheets on cantilever joints and before long I perfected a design that allowed me to integrate snap-joints into any 3D design I wanted. A demonstration of my first success with this can be found on <a href="https://www.youtube.com/watch?v=wQ2vWqRrs38"> youtube</a></p><br>
+
+
     </div>
     <div class="large-3 columns">
       .
@@ -57,7 +72,7 @@
 
   </div>
 
-	  <script>
+    <script>
       $(document).foundation({
         tab: {
           callback: function(tab) {
